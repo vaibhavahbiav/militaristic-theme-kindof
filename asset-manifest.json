@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/militaristic-theme-kindof/static/css/main.5bf59b48.css",
-    "main.js": "/militaristic-theme-kindof/static/js/main.2736e299.js",
+    "main.js": "/militaristic-theme-kindof/static/js/main.faffba7c.js",
     "static/js/453.9f32fc9d.chunk.js": "/militaristic-theme-kindof/static/js/453.9f32fc9d.chunk.js",
     "index.html": "/militaristic-theme-kindof/index.html",
     "main.5bf59b48.css.map": "/militaristic-theme-kindof/static/css/main.5bf59b48.css.map",
-    "main.2736e299.js.map": "/militaristic-theme-kindof/static/js/main.2736e299.js.map",
+    "main.faffba7c.js.map": "/militaristic-theme-kindof/static/js/main.faffba7c.js.map",
     "453.9f32fc9d.chunk.js.map": "/militaristic-theme-kindof/static/js/453.9f32fc9d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5bf59b48.css",
-    "static/js/main.2736e299.js"
+    "static/js/main.faffba7c.js"
   ]
 }
