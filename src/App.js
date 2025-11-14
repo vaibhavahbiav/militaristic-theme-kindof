@@ -125,19 +125,17 @@ function App() {
           <div className="w-screen h-screen z-[1] relative flex flex-col items-center justify-center overflow-hidden shrink-0"><video className="grayscale blur-sm absolute object-cover w-auto h-auto min-w-full min-h-full" disablePictureInPicture muted loop autoPlay><source src="assets/features-bg.mp4" type="video/mp4" /></video></div>
           <div className="flex flex-col-reverse xl:flex-row items-center justify-center xl:space-x-56 z-[2] absolute top-28 xl:top-1/2 xl:-translate-y-1/2 left-1/2 -translate-x-1/2 w-2/3">
             <div className="xl:flex-1 grid grid-cols-2 gap-5 xl:gap-x-20 mt-20 xl:mt-0">
-              {featuresList.map((feature) => {
-                return (
-                  <>
-                    <motion.div
-                      initial={{ opacity: 0, x: -100 }}
-                      whileInView={{ opacity: 1, x: 0 }}
-                      transition={{ duration: 0.6 }}
-                      viewport={{ once: false }}>
+              <motion.div
+                initial={{ opacity: 0, x: -100 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.6 }}
+                viewport={{ once: false }}>
+                {featuresList.map((feature) => {
+                  return (
                       <div key={feature.id} className=" xl:p-6 size-36 xl:w-[300px] xl:h-[200px] text-center border-military-green bg-clip-content bg-military-green text-lg xl:text-3xl text-black flex flex-col items-center justify-center space-y-4"><div className="size-20 bg-military-orange text-white">an icon</div><p>{feature.text}</p></div>
-                    </motion.div>
-                  </>
-                )
-              })}
+                  )
+                })}
+              </motion.div>
             </div>
             <div className="py-9 px-3 md:px-5 lg:px-9  xl:py-24 flex items-center justify-center border-[10px] border-dashed border-white relative before:absolute before:content-[''] before:top-0 before:left-0 before:size-6 xl:before:size-20 before:border-r-[10px] before:border-b-[10px] before:border-dashed before:border-white before:bg-transparent after:absolute after:content-[''] after:bottom-0 after:right-0 after:size-6 xl:after:size-20 after:border-l-[10px] after:border-t-[10px] after:border-dashed after:border-white after:bg-transparent min-w-fit xl:flex-1">
               <h2 className="text-2xl md:text-4xl xl:text-6xl font-bold tracking-wider text-military-orange z-[20]">Our Features.<span className="h-full px-1 bg-white animate-pulse hover:transition-all duration-75">&nbsp;</span></h2>
