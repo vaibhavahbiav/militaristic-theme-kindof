@@ -149,7 +149,7 @@ function App() {
       {/* contact */}
       < section id="contact"
         className='relative h-screen w-screen bg-military-orange flex flex-col items-center justify-center overflow-clip' >
-        <span className="absolute -top-3 xl:-top-12 left-1/2 -translate-x-1/2 "><div className="relative text-[20vw] sm:text-[18vw] md:text-[15vw] lg:text-[15vw] xl:[20vw] leading-none font-extrabold tracking-wide select-none pointer-events-none whitespace-nowrap uppercase text-black"><span>vyomguard</span>
+        <span className="absolute -top-3 xl:-top-12 left-1/2 -translate-x-1/2 "><div className="relative text-[20vw] sm:text-[18vw] md:text-[15vw] lg:text-[15vw] xl:[20vw] leading-none font-extrabold tracking-wide select-none pointer-events-none whitespace-nowrap uppercase text-black"><span>vyomgarud</span>
           <p className="absolute -bottom-3 right-1/2 translate-x-1/2 lg:right-44 xl:right-56 text-xs font-black lg:mr-12 xl:mr-32">made my vaibhav and internet</p></div>
         </span>
         <h2 className=" text-center font-bold text-2xl lg:text-5xl mt-12 lg:mt-32">Our Socials</h2>
