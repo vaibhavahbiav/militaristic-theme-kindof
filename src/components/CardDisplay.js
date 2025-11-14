@@ -17,7 +17,7 @@ function CardDisplay() {
                         <h4 className="uppercase text-lg xl:text-3xl">{card.title}</h4>
                         <div className="bg-black h-24 w-16">image</div>
                         <h5 className="mb-32 group-hover:translate-y-0 group-hover:opacity-100 translate-y-20 opacity-0 group-hover:transition-transform group-hover:duration-500 group-hover:underline-offset-8 group-hover:underline">price- {card.cost} INR</h5>
-                        <div className="absolute bottom-1/2 xl:bottom-4 right-4 xl:left-1/2 xl:-translate-x-1/2 -translate-y-10 xl:translate-y-10 opacity-0 group-hover:opacity-100 group-hover:delay-500 group-hover:translate-y-0 group-hover:transition-all">
+                        <div className="absolute bottom-1/2 xl:bottom-4 right-4 xl:left-1/2 xl:-translate-x-1/2 -translate-y-10 xl:translate-y-10 opacity-0 group-hover:opacity-100 group-hover:delay-500 group-hover:translate-y-0 group-hover:transition-all xl:flex items-center justify-center">
                             <button className="block xl:hidden uppercase bg-military-orange px-1 py-1 text-sm text-white hover:scale-125 hover:shadow-lg transition-transform active:scale-90">buy</button>
                             <button className="hidden xl:block uppercase bg-military-orange px-3 py-1 text-white hover:scale-125 hover:shadow-lg transition-transform active:scale-90">purchase</button>
                         </div>
