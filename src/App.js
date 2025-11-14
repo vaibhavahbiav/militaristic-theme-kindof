@@ -132,13 +132,13 @@ function App() {
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.6 }}
                     viewport={{ once: false }}>
-                    <div key={feature.id} className=" xl:p-6 size-36 xl:w-[300px] xl:h-[200px] text-center border-military-green bg-clip-content bg-military-green text-lg xl:text-3xl text-black flex flex-col items-center justify-center space-y-4"><div className="size-20 bg-military-orange text-white">an icon</div><p>{feature.text}</p></div>
+                    <div key={feature.id} className=" xl:p-6 size-28 xl:w-[300px] xl:h-[200px] text-center border-military-green bg-clip-content bg-military-green xl:text-2xl text-black flex flex-col items-center justify-center space-y-4"><div className="size-14 xl:size-20 bg-military-orange text-white">an icon</div><p>{feature.text}</p></div>
                   </motion.div>
                 )
               })}
             </div>
             <div className="py-9 px-3 md:px-5 lg:px-9  xl:py-24 flex items-center justify-center border-[10px] border-dashed border-white relative before:absolute before:content-[''] before:top-0 before:left-0 before:size-6 xl:before:size-20 before:border-r-[10px] before:border-b-[10px] before:border-dashed before:border-white before:bg-transparent after:absolute after:content-[''] after:bottom-0 after:right-0 after:size-6 xl:after:size-20 after:border-l-[10px] after:border-t-[10px] after:border-dashed after:border-white after:bg-transparent min-w-fit xl:flex-1">
-              <h2 className="text-2xl md:text-4xl xl:text-6xl font-bold tracking-wider text-military-orange z-[20]">Our Features.<span className="h-full px-1 bg-white animate-pulse hover:transition-all duration-75">&nbsp;</span></h2>
+              <h2 className="text-2xl md:text-4xl xxl:text-6xl font-bold tracking-wider text-military-orange z-[20]">Our Features.<span className="h-full px-1 bg-white animate-pulse hover:transition-all duration-75">&nbsp;</span></h2>
             </div>
           </div>
         </motion.div>
