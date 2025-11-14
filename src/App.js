@@ -125,7 +125,7 @@ function App() {
           <div className="w-screen h-screen z-[1] relative flex flex-col items-center justify-center overflow-hidden shrink-0"><video className="grayscale blur-sm absolute object-cover w-auto h-auto min-w-full min-h-full" disablePictureInPicture muted loop autoPlay><source src="assets/features-bg.mp4" type="video/mp4" /></video></div>
           <div className="flex flex-col-reverse xl:flex-row items-center justify-center xl:space-x-56 z-[2] absolute top-28 xl:top-1/2 xl:-translate-y-1/2 left-1/2 -translate-x-1/2 w-2/3">
             <div className="xl:flex-1 grid grid-cols-2 gap-5 xl:gap-x-20 mt-20 xl:mt-0">
-              {featuresList.map((feature, i) => {
+              {featuresList.map((feature) => {
                 return (
                   <>
                     <motion.div

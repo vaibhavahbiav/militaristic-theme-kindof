@@ -11,11 +11,11 @@ const cards = [
 function CardDisplay() {
     return (
         <div className="bg-military-brown min-w-[300px] min-h-full xl:w-[80vw] xl:max-w-[1200px] xl:h-[600px] border-8 border-dashed border-black flex flex-col space-y-5 lg:space-y-0 lg:flex-row items-stretch xl:items-stretch justify-center shadow-xl py-5 px-3">
-            {cards.map((card, i) => {
+            {cards.map((card) => {
                 return (
                     <>
 
-                        <div key={i} className={`p-5 xl:p-0 flex-1 w-full min-h-full ${card.color} flex flex-col justify-center items-center text-center space-y-5 hover:flex-[2] hover:transition-all group tracking-wider border-8 border-dashed border-transparent hover:border-military-orange relative hover:shadow-lg`}>
+                        <div key={card.id} className={`p-5 xl:p-0 flex-1 w-full min-h-full ${card.color} flex flex-col justify-center items-center text-center space-y-5 hover:flex-[2] hover:transition-all group tracking-wider border-8 border-dashed border-transparent hover:border-military-orange relative hover:shadow-lg`}>
                             <h4 className="uppercase text-lg xl:text-3xl">{card.title}</h4>
                             <div className="bg-black h-24 w-16">image</div>
                             <h5 className="mb-32 group-hover:translate-y-0 group-hover:opacity-100 translate-y-20 opacity-0 group-hover:transition-transform group-hover:duration-500 group-hover:underline-offset-8 group-hover:underline">price- {card.cost} INR</h5>
