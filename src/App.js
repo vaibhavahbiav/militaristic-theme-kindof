@@ -127,6 +127,7 @@ function App() {
             <div className="xl:flex-1 grid grid-cols-2 gap-5 xl:gap-x-20 mt-20 xl:mt-0">
               {featuresList.map((feature) => {
                 return (
+                  <div key={feature.id}>
                   <motion.div
                     initial={{ opacity: 0, x: -100 }}
                     whileInView={{ opacity: 1, x: 0 }}
@@ -134,6 +135,7 @@ function App() {
                     viewport={{ once: false }}>
                     <div key={feature.id} className=" xl:p-6 size-28 xl:w-[300px] xl:h-[200px] text-center border-military-green bg-clip-content bg-military-green xl:text-2xl text-black flex flex-col items-center justify-center space-y-4"><div className="size-14 xl:size-20 bg-military-orange text-white">an icon</div><p>{feature.text}</p></div>
                   </motion.div>
+                  </div>
                 )
               })}
             </div>
