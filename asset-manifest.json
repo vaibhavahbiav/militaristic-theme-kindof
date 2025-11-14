@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/militaristic-theme-kindof/static/css/main.2f330630.css",
-    "main.js": "/militaristic-theme-kindof/static/js/main.4bac4e8e.js",
+    "main.css": "/militaristic-theme-kindof/static/css/main.81f40f20.css",
+    "main.js": "/militaristic-theme-kindof/static/js/main.8422fcd8.js",
     "static/js/453.9f32fc9d.chunk.js": "/militaristic-theme-kindof/static/js/453.9f32fc9d.chunk.js",
     "index.html": "/militaristic-theme-kindof/index.html",
-    "main.2f330630.css.map": "/militaristic-theme-kindof/static/css/main.2f330630.css.map",
-    "main.4bac4e8e.js.map": "/militaristic-theme-kindof/static/js/main.4bac4e8e.js.map",
+    "main.81f40f20.css.map": "/militaristic-theme-kindof/static/css/main.81f40f20.css.map",
+    "main.8422fcd8.js.map": "/militaristic-theme-kindof/static/js/main.8422fcd8.js.map",
     "453.9f32fc9d.chunk.js.map": "/militaristic-theme-kindof/static/js/453.9f32fc9d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f330630.css",
-    "static/js/main.4bac4e8e.js"
+    "static/css/main.81f40f20.css",
+    "static/js/main.8422fcd8.js"
   ]
 }
