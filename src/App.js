@@ -156,7 +156,7 @@ function App() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: false }}>
-          <div className="mt-10 grid grid-cols-3 gap-x-20 gap-y-32 xl:gap-x-40 xl:gap-y-10 place-items-center lg:inline-flex">
+          <div className="mt-10 grid grid-cols-3 gap-x-20 gap-y-20 xl:gap-x-40 xl:gap-y-10 place-items-center lg:inline-flex">
             <button className="border-8 border-transparent px-3 hover:border-8 hover:border-dashed hover:border-black">one</button>
             <button className="border-8 border-transparent px-3 hover:border-8 hover:border-dashed hover:border-black">two</button>
             <button className="border-8 border-transparent px-3 hover:border-8 hover:border-dashed hover:border-black">three</button>
